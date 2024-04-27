@@ -56,11 +56,16 @@ const Footer = () => {
               />
             </div>
             <button
-              type="submit"
-              className="w-full bg-purple-700 hover:bg-purple-800 text-white font-bold py-2 px-4 rounded-tl-lg rounded-br-lg"
-            >
-              Send
-            </button>
+  type="submit"
+  className="   text-blackv font-bold py-2 px-4  rounded-lg shadow-lg "
+  style={{
+    background: 'linear-gradient(to right, #632B6C, #96527A)', // Dégradé de couleur
+    boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)', // Ombre
+  }}
+>
+  Send
+</button>
+
           </form>
         </div>
 
