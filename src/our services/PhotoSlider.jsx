@@ -1,12 +1,10 @@
 // PhotoSlider.jsx
 import React from "react";
 import { motion } from "framer-motion";
-import left from "./logo/left1.svg";
-import right from "./logo/right1.svg";
 import training from "./logo/training.svg";
 import code from "./logo/code.svg";
 import iot from "./logo/iot.svg";
-import aii from "./logo/ai.svg";
+import aii from "./logo/aia.svg";
 import cloud from "./logo/cloud.svg";
 import main from "./logo/main.svg";
 
@@ -14,9 +12,7 @@ import main from "./logo/main.svg";
 import votreImageUrl from "./jjjj.jpg"
 const photos = [
   training,
-  code,
-  iot,
-  aii,cloud,main
+code,iot,aii, cloud,main
 ];
 
 const PhotoSlider = () => {
@@ -24,9 +20,7 @@ const PhotoSlider = () => {
     ...photos,
     ...photos,
     ...photos,
-    ...photos,
-    ...photos,
-    ...photos,
+   
   ];
 
   return (
