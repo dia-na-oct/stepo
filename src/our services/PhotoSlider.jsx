@@ -3,7 +3,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import left from "./logo/left1.svg";
 import right from "./logo/right1.svg";
-import sonatrach from "./logo/sonatrach.svg";
+import sonatrach from "./logo/training.svg";
 import nvidia from "./logo/code.svg";
 import ai from "./logo/cloud.svg";
 import votreImageUrl from "./jjjj.jpg"
@@ -25,13 +25,15 @@ const PhotoSlider = () => {
   ];
 
   return (
-    <div className="  w-full  pb-20 text-white relative "   style={{
+    <div className="  w-full  pb-20 text-white relative bg-midNightBlueColor "   
+    style={{
       backgroundImage: `url(${votreImageUrl})`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',
       backgroundRepeat: 'no-repeat',
       // Adjust the opacity here:
-    }}>
+    }}
+    >
       <img src={right} alt="" className="absolute  -top-32 left-0   z-[10]" />
       <img src={left} alt="" className="absolute  -top-32 right-0   z-[10]" />
 
