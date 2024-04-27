@@ -41,7 +41,7 @@ const PhotoSlider = () => {
       <img src={right} alt="" className="absolute  -top-32 left-0   z-[10]" />
       <img src={left} alt="" className="absolute  -top-32 right-0   z-[10]" />
 
-      <h1 className=" text-5xl  font-bold text-center pt-10 pb-10 ">Our Services</h1>
+      <h1 className=" text-5xl  font-bold text-center py-20 ">Our Services</h1>
       <div className="flex justify-center">
         <div
           className="md:w-3/4 mx-auto sm:w-4/5 lg:w-3/4 w-4/5 inline-flex flex-nowrap overflow-hidden "
