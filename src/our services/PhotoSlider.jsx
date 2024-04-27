@@ -3,15 +3,20 @@ import React from "react";
 import { motion } from "framer-motion";
 import left from "./logo/left1.svg";
 import right from "./logo/right1.svg";
-import sonatrach from "./logo/training.svg";
-import nvidia from "./logo/code.svg";
-import ai from "./logo/cloud.svg";
+import training from "./logo/training.svg";
+import code from "./logo/code.svg";
+import iot from "./logo/iot.svg";
+import aii from "./logo/ai.svg";
+import cloud from "./logo/cloud.svg";
+import main from "./logo/main.svg";
+
+
 import votreImageUrl from "./jjjj.jpg"
 const photos = [
-  sonatrach,
-  nvidia,
-  ai,
-  // Add more photo URLs here
+  training,
+  code,
+  iot,
+  aii,cloud,main
 ];
 
 const PhotoSlider = () => {
@@ -26,18 +31,17 @@ const PhotoSlider = () => {
 
   return (
     <div className="  w-full  pb-20 text-white relative bg-midNightBlueColor "   
-    style={{
-      backgroundImage: `url(${votreImageUrl})`,
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
-      // Adjust the opacity here:
-    }}
+    // style={{
+    //   backgroundImage: `url(${votreImageUrl})`,
+    //   backgroundSize: 'cover',
+    //   backgroundPosition: 'center',
+    //   backgroundRepeat: 'no-repeat',
+    // }}
     >
       <img src={right} alt="" className="absolute  -top-32 left-0   z-[10]" />
       <img src={left} alt="" className="absolute  -top-32 right-0   z-[10]" />
 
-      <h1 className=" text-5xl  font-bold text-center pt-10 pb-10">Our Services</h1>
+      <h1 className=" text-5xl  font-bold text-center pt-10 pb-10 ">Our Services</h1>
       <div className="flex justify-center">
         <div
           className="md:w-3/4 mx-auto sm:w-4/5 lg:w-3/4 w-4/5 inline-flex flex-nowrap overflow-hidden "

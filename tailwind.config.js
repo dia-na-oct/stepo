@@ -22,7 +22,7 @@ blackv:"#000000",
         'gradient-to-br': 'linear-gradient(to bottom right, #96527A, #CD6889)',
       }),
       fontFamily: {
-        IPM: "IBM Plex Mono, monospace",
+        IPM: "IBM Plex Mono, monospace,Comfortaa",
         WorkSans: "Work Sans, sans-serif",
       },
     },
