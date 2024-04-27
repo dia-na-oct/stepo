@@ -31,12 +31,12 @@ const PhotoSlider = () => {
 
   return (
     <div className="  w-full  pb-20 text-white relative bg-midNightBlueColor "   
-    // style={{
-    //   backgroundImage: `url(${votreImageUrl})`,
-    //   backgroundSize: 'cover',
-    //   backgroundPosition: 'center',
-    //   backgroundRepeat: 'no-repeat',
-    // }}
+    style={{
+      backgroundImage: `url(${votreImageUrl})`,
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat',
+    }}
     >
       
 
